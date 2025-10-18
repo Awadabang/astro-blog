@@ -1,0 +1,26 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="zh">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>🧑‍🚀 Hello, There!</h1>
+			<p>欢迎来到我的博客，主要更新的内容/技术有：</p>
+			<ul>
+				<li>ArchLinux</li>
+				<li>Kubernetes</li>
+				<li>AI Infra</li>
+			</ul>
+		</main>
+		<Footer />
+	</body>
+</html>
