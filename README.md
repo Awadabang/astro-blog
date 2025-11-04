@@ -1,3 +1,5 @@
 # Astro Starter Kit: Blog
 
-https://www.freebird2913.tech/posts/astro-blog-netlify-deployment-guide/
+alexsheungblog.netlify.app
+
+- ref: https://www.freebird2913.tech/posts/astro-blog-netlify-deployment-guide/
